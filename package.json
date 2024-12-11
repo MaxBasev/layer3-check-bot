@@ -1,0 +1,23 @@
+{
+	"name": "layer3-check-bot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12",
+		"dotenv": "^16.0.0",
+		"mongodb": "^4.1.0",
+		"node-fetch": "^3.0.0",
+		"node-telegram-bot-api": "^0.56.0",
+		"puppeteer": "^23.10.1",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-stealth": "^2.11.2"
+	},
+	"type": "module"
+}
